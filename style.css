@@ -1,0 +1,9 @@
+.topbar {
+  background-color: grey;
+  padding: 0px;
+}
+
+.borderpictures {
+  max-width: 400px;
+  max-height: 400px;
+}
