@@ -23,7 +23,6 @@
   max-width: 100%;
   max-height: 100%;
   min-height: 270px;
-  min-width: 235px;
 }
 
 .h1title {
@@ -33,29 +32,21 @@
   padding-top: 40px;
 }
 
-/*--------divider on phones--------*/
-
-.divider {
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-}
-
-.imagedivider {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-}
-
 /*--------navbar--------*/
+
+.navposition {
+  position: absolute;
+  bottom: 0px;
+}
+
 
 /*--------callout-------*/
 
 .callout {
   background-color: #5b6763;
-  margin: 20px;
+  margin-top: 100px;
   border-radius: 20px;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .callouttitle {
@@ -69,16 +60,22 @@
   font-family: 'Arvo', sans-serif;
 }
 
-.btncolor {
-  background-color: #400303;
+.calloutparasmall {
   color: #fff;
+  font-family: 'Arvo', sans-serif;
+  font-size: 80%;
+}
+
+.btncolor {
+  background-color: #fff0c9;
+  color: #5b6763;
 }
 
 .calloutpicture {
   padding: 10px;
   border-radius: 20px;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /*-----------form segment of callout-----------*/
@@ -88,8 +85,9 @@
   background-color: #fff;
   margin: 30px;
   padding-bottom: 30px;
+  border-radius: 20px;
 }
 
 .formtext {
-  color: ##400303;
+  color: #400303;
 }

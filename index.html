@@ -19,34 +19,28 @@
       </div>
       <div class="col col-md-6">
         <h1 class="h1title text-center">The Irish Newspaper Forum</h1>
-        <div class="row navposition">
+        <div class="container-fluid nopadding navposition">
           <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Conference </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About us </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Events</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Publications </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Links </a>
-                </li>
-              </ul>
-              </form>
+            <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+              <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Conference</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Publications</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Links</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </nav>
         </div>
@@ -58,24 +52,17 @@
   </div>
 
 
-  <div class="container divider d-md-none">
+
+
+
+  <div class="container-fluid callout jumbotron">
     <div class="row">
-      <div class="col">
-        <img class="imagedivider" src="assets/images/notebook.jpeg" alt="Image of a notebook">
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div class="container-fluid callout">
-    <div class="row">
-      <div class="col col-md-6">
+      <div class="col col-md-6 my-5">
         <h2 class="callouttitle"> "Technology and Journalism"</h2>
         <p class="calloutpara">Join us at the University of North-Eastern England in Hull for this year's Irish Newspaper Forum, 10-12 November. Sign up below!</p>
+        <p class="calloutparasmall">The call for papers has already been completed for this conference - please do not submit any further papers as they will not be accepted. Some limited bursaries are available for attendees from abroad.</p>
       </div>
-      <div class="col-md-6 d-none d-md-block">
+      <div class="col-md-6 d-none d-md-block my-5">
         <img class="calloutpicture" src="assets/images/Poster_2019.png" alt="Poster for 2019 conference">
       </div>
     </div>
@@ -84,18 +71,22 @@
         <img class="calloutpicture" src="assets/images/Poster_2019.png" alt="Poster for 2019 conference">
       </div>
     </div>
-    <div class="row signup">
-      <div class="col-9 formtext">
-        <form action="Name">Name</form>
-        <form action="Email">Email</form>
-        <form action="Institution">Intitution</form>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
-      <div class="col-3">
-        <button class="btn btncolor">
-          Sign up!
-        </button>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
       </div>
-    </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
   </div>
 
