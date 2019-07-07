@@ -1,9 +1,21 @@
-.topbar {
-  background-color: grey;
+/* Trimming paddding etc. */
+.nopadding {
   padding: 0px;
 }
 
+/* Topbar */
+.topbar {
+  background-color: #5B6763;
+}
+
 .borderpictures {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.h1title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 40px;
 }
