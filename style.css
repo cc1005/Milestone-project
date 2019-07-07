@@ -113,3 +113,38 @@
     margin: 15px;
     border-radius: 20px;
   }
+
+/*-------- Publications -----------*/
+
+.publicationscontainer {
+  background-image: url("assets/images/Books.jpeg");
+  background-size: 100%;
+  margin-top: 100px;
+  border-radius: 20px;
+  max-width: 90%;
+  height: 500px;
+}
+
+.booklist {
+  background-color: rgba(64, 3, 3, 0.8);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 500px;
+}
+
+.booklistpara {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.booklinks {
+  color: #fff0c9;
+  font-style: oblique;
+}
+
+.booklistli {
+  margin:0 0 20px 0;
+}

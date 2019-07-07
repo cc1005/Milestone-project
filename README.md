@@ -35,6 +35,8 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ## Credits
 
+Advice and basic code for the navbar positioning (specifically "Navbar 4") was taken from https://www.codeply.com/go/qhaBrcWp3v. 
+
 ### Content
 All content, unless specifically acknowledged otherwise, was written by me.
 
