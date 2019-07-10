@@ -33,18 +33,15 @@
 }
 
 /*--------navbar--------*/
-
 .navposition {
   position: absolute;
   bottom: 0px;
 }
 
-
 /*--------callout-------*/
-
 .callout {
   background-color: #5b6763;
-  margin-top: 100px;
+  margin-top: 30px;
   border-radius: 20px;
   max-width: 90%;
 }
@@ -53,17 +50,35 @@
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
   color: #fff;
+  text-align: center;
 }
 
 .calloutpara {
   color: #fff;
   font-family: 'Arvo', sans-serif;
+  text-align: center;
 }
 
 .calloutparasmall {
   color: #fff;
   font-family: 'Arvo', sans-serif;
   font-size: 80%;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .calloutparasmall {
+    font-size: 120%;
+  }
+  .calloutpara {
+    font-size: 120%;
+  }
+  .callouttitle {
+    font-size: 260%;
+  }
+  .booklistpara {
+    font-size: 110%;
+  }
 }
 
 .btncolor {
@@ -78,8 +93,19 @@
   max-height: 100%;
 }
 
-/*-----------form segment of callout-----------*/
+@media (min-width: 992px) {
+  .centeralignpublications {
+    position: relative;
+    top: 20%;
+  }
+}
 
+.centeralign {
+  position: relative;
+  top: 40%;
+}
+
+/*-----------form segment of callout-----------*/
 .formcontainer {
   background-color: #400303;
   border-radius: 20px;
@@ -98,46 +124,47 @@
   font-size: 80%;
 }
 
+.btncenter {
+  display: flex;
+  justify-content: center;
+}
+
 /*-------- About us -------------*/
-
 .aboutuscontainer {
-    background-color: #2d2a32;
-    margin-top: 100px;
-    border-radius: 20px;
-    max-width: 90%;
-  }
+  background-color: #2d2a32;
+  margin-top: 30px;
+  border-radius: 20px;
+  max-width: 90%;
+}
 
-  .aboutusphoto {
-    max-width: 100%;
-    max-height: 100%;
-    margin: 15px;
-    border-radius: 20px;
-  }
+.aboutusphoto {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 15px;
+  border-radius: 20px;
+}
 
 /*-------- Publications -----------*/
-
 .publicationscontainer {
   background-image: url("assets/images/Books.jpeg");
   background-size: 100%;
-  margin-top: 100px;
+  margin-top: 30px;
   border-radius: 20px;
   max-width: 90%;
-  height: 500px;
 }
 
 .booklist {
   background-color: rgba(64, 3, 3, 0.8);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  height: 500px;
+  border-bottom-left-radius: 20px;
 }
 
 .booklistpara {
   color: #fff;
   margin-top: 20px;
   margin-left: 20px;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: 'Arvo', sans-serif;
 }
 
 .booklinks {
@@ -145,6 +172,31 @@
   font-style: oblique;
 }
 
+.booklinks:hover {
+  color: #fff;
+}
+
+.booklinks a:hover {
+  color: #fff;
+}
+
 .booklistli {
-  margin:0 0 20px 0;
+  margin: 0 0 20px 0;
+}
+
+/*--------------------footer------------*/
+.personalisedfooter {
+  background-color: #5b6763;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footerlinks {
+  color: #fff;
+}
+
+.footerlinks:hover {
+  color: #fff0c9;
 }
