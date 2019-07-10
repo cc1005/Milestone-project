@@ -3,7 +3,7 @@ First milestone Project: User-Centric Frontend Development - Code Institute
 
 This website is functioning as a mock-up of a website I will later create with copyrighted assets for an academic forum based in Ireland. This forum puts on annual events, and helps publish books on certain types of history. The website will contain information about the forum, details of the annual conference & other events, links to publications and conference posters, as well as contact details for the forum itself.
 
-See the directory entitled "resources" for wireframes and handwritted development documents.
+See the directory entitled "resources" for wireframes and handwritten development documents.
 
 
 ## UX
@@ -63,6 +63,6 @@ Bootstrap documentation has, of course, proven invaluable, and for the navbar in
 All content, unless specifically acknowledged otherwise, was written by me.
 
 ### Media
-All photos were taken from [Pexels](https://www.pexels.com/), a stock image library. Credit to The Atlantic, whose video is embedded in the media section, and Desmond Shearer's Irish History podcast. These media items are hosted on Youtube and Soundcloud respectively. All other business names are used respective of their trademarks, and the 'University of North-Eastern England' is a fictitious university. 
+All photos were taken from [Pexels](https://www.pexels.com/), a stock image library. Credit to The Atlantic, whose video is embedded in the media section, and Desmond Shearer's Irish History podcast. These media items are hosted on Youtube and Soundcloud respectively. All other business names are used respective of their trademarks, and the 'University of North-Eastern England' is a fictitious university.
 
 ### Acknowledgements
