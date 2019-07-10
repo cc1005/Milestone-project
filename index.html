@@ -13,37 +13,25 @@
 
 <body>
 
-  <div class="container-fluid topbar nopadding">
+  <div class="container-fluid topbar nopadding" id="home">
     <div class="row no-gutters">
       <div class="col-md-3">
         <img class="borderpictures" src="assets/images/man_with_newspaper.jpeg" alt="man with newspaper">
       </div>
       <div class="col col-md-6">
-        <h1 class="h1title text-center">The Irish Newspaper Forum</h1>
+        <h1 class="h1toptitle text-center">The Irish Newspaper Forum</h1>
         <div class="container-fluid nopadding navposition">
-          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+            <a href="#home" class="navbar-brand navtitle"> INF </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span></button>
-            <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-              <div class="collapse navbar-collapse text-center" id="navbarsExample11">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Conference</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Publications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Links</a>
-                  </li>
-                </ul>
-              </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-auto navtext">
+                <li class="active nav-item mr-2"><a class="nav-link" href="#conference">Conference</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#aboutus">About Us</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#publications">Publications</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#socialmedia">Social Media</a></li>
+              </ul>
             </div>
           </nav>
         </div>
@@ -53,8 +41,9 @@
       </div>
     </div>
   </div>
+  </div>
 
-  <div class="container-fluid callout jumbotron">
+  <div class="container-fluid callout jumbotron" id="conference">
     <div class="row align-items-center">
       <div class="col col-md-6 my-5">
         <h2 class="callouttitle"> "Technology and Journalism"</h2>
@@ -66,28 +55,13 @@
       </div>
     </div>
     <div class="row">
-      <div class="col d-md-none d-flex justify-content-center">
+      <div class="col d-md-none d-flex">
         <img class="calloutpicture" src="assets/images/Poster_2019.png" alt="Poster for 2019 conference">
       </div>
     </div>
-    <div class="container formcontainer">
-      <form>
-        <div class="form-group">
-          <div class="form-group">
-            <label for="exampleInputName1" class="formtext">Name</label>
-            <input type="name" class="form-control formtextdark" id="exampleInputName1" placeholder="Name">
-          </div>
-          <label for="exampleInputEmail1" class="formtext">Email address</label>
-          <input type="email" class="form-control formtextdark" id="exampleInputEmail1" placeholder="Enter email">
-        </div>
-        <div class="btncenter">
-          <button type="submit" class="btn btncolor">Submit</button>
-        </div>
-      </form>
-    </div>
   </div>
 
-  <div class="container aboutuscontainer">
+  <div class="container aboutuscontainer" id="aboutus">
     <div class="row align-items-center">
       <div class="col col-md-6 my-5 d-none d-md-block">
         <img class="aboutusphoto" src="assets/images/About_us.jpeg" alt="Journalists taking photographs">
@@ -101,7 +75,7 @@
     </div>
   </div>
 
-  <div class="container publicationscontainer">
+  <div class="container publicationscontainer" id="publications">
     <div class="row">
       <div class="col col-lg-4 visible-lg">
         <h2 class="callouttitle">
@@ -131,8 +105,62 @@
   </div>
   </div>
 
+  <div class="container mediacontainer">
+    <div class="row">
+      <div class="col callouttitle">
+        <h2>Media</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-6 videoclass">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/-7esKJDZqzQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="mediatitle">
+          Video on Technology and Journalism
+        </h4>
+      </div>
+      <div class="col podcasts d-none d-md-block">
+        <iframe class="podcasts" width="80%" height="315" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/230299078&color=%23fff0c9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <h4 class="mediatitle">
+          Podcast on the history of the Troubles
+        </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-md-none d-flex">
+        <iframe class="podcasts" width="80%" height="315" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/230299078&color=%23fff0c9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <div class="row">
+          <div class="col">
+          <h4 class="mediatitle">
+            Podcast on the history of the Troubles
+          </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-flex formcontainer">
+    <h2 class="formtitle">Sign up today to our newsletter</h2>
+    <form>
+      <div class="form-group">
+        <div class="form-group">
+          <label for="exampleInputName1" class="formtext">Name</label>
+          <input type="name" class="form-control formtextdark" id="exampleInputName1" placeholder="Name">
+        </div>
+        <label for="exampleInputEmail1" class="formtext">Email address</label>
+        <input type="email" class="form-control formtextdark" id="exampleInputEmail1" placeholder="Enter email">
+      </div>
+      <div class="btncenter">
+        <button type="submit" class="btn btncolor">Submit</button>
+      </div>
+    </form>
+  </div>
+
   <footer>
-    <div class="container-fluid personalisedfooter">
+    <div class="container-fluid personalisedfooter" id="socialmedia">
       <div class="row">
         <div class="col col-md-6">
           <h3><a class="footerlinks" href="https://www.facebook.com/">Facebook</a></h3>
@@ -142,7 +170,7 @@
           <h3><a class="footerlinks" href="https://www.youtube.com/">Youtube</a></h3>
         </div>
         <div class="col-md-6 h1title text-center">
-          <h1> The Irish Newspaper Forum</h1>
+          <h1><a class="footerlinks" href="#home"> The Irish Newspaper Forum</a></h1>
         </div>
       </div>
     </div>

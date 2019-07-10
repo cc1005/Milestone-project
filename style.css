@@ -32,10 +32,39 @@
   padding-top: 40px;
 }
 
+@media (min-width: 768px) {
+  .h1toptitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .h1toptitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+}
+
 /*--------navbar--------*/
 .navposition {
   position: absolute;
   bottom: 0px;
+}
+
+.navtitle {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 1037px) {
+  .navtext {
+    font-size: 83%;
+  }
 }
 
 /*--------callout-------*/
@@ -66,16 +95,24 @@
   text-align: center;
 }
 
+.videoclass {
+      margin: 30px;
+
+}
+
 @media (min-width: 992px) {
   .calloutparasmall {
     font-size: 120%;
   }
+
   .calloutpara {
     font-size: 120%;
   }
+
   .callouttitle {
     font-size: 260%;
   }
+
   .booklistpara {
     font-size: 110%;
   }
@@ -103,30 +140,6 @@
 .centeralign {
   position: relative;
   top: 40%;
-}
-
-/*-----------form segment of callout-----------*/
-.formcontainer {
-  background-color: #400303;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.formtext {
-  color: #fff;
-  font-family: 'Arvo', sans-serif;
-  font-size: 80%;
-}
-
-.formtextdark {
-  color: #400303;
-  font-family: 'Arvo', sans-serif;
-  font-size: 80%;
-}
-
-.btncenter {
-  display: flex;
-  justify-content: center;
 }
 
 /*-------- About us -------------*/
@@ -182,6 +195,72 @@
 
 .booklistli {
   margin: 0 0 20px 0;
+}
+
+/*-----------signup-----------*/
+.formcontainer {
+  background-color: #400303;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.formtext {
+  color: #fff;
+  font-family: 'Arvo', sans-serif;
+  font-size: 80%;
+  margin-left: 15%;
+}
+
+.formtextdark {
+  color: #400303;
+  font-family: 'Arvo', sans-serif;
+  font-size: 80%;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+}
+
+.btncenter {
+  display: flex;
+  justify-content: center;
+  font-family: 'Arvo', sans-serif;
+}
+
+.formtitle {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/*--------------------media-------------*/
+
+.mediacontainer {
+  background-color: #5b6763;
+  margin-top: 30px;
+  border-radius: 20px;
+  max-width: 90%;
+}
+
+.videoclass {
+  position: relative;
+  width: 80%;
+}
+
+.podcasts {
+  padding: 15px;
+  margin: auto;
+}
+
+
+
+.mediatitle {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
 }
 
 /*--------------------footer------------*/
